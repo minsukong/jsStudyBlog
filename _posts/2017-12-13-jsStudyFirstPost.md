@@ -11,7 +11,7 @@ author: minSuKong
 
 **안녕하세요!**
 
-study group 여러분들의 github 초대를 위해 댓글로 자신의<br />
+study group github 초대를 위해 댓글로 자신의<br />
 **E-mail 주소를 남겨주세요!**
 <br />
 <br />
