@@ -197,6 +197,16 @@ main {
 
 .index-page {
   position: relative;
+  color: rgb(146, 146, 146);
+  font-size: 1em;
+
+  h1 {
+    font-size: 1em;
+  }
+
+  p, ul {
+    display: none;
+  }
   &:after {
     content: "***";
     position: absolute;

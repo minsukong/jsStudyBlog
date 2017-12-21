@@ -1,0 +1,40 @@
+/*
+Error: Invalid CSS after "@charset "utf-8"": expected "{", was ";"
+        on line 4 of /Users/imac/Desktop/jsStudyBlog/assets/css/main.scss
+
+1: ---
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: @charset "utf-8";
+5: 
+6: 
+7: // Import partials from `sass_dir` (defaults to `assets/_sass`)
+8: @import
+9:   "normalize",
+
+Backtrace:
+/Users/imac/Desktop/jsStudyBlog/assets/css/main.scss:4
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/private/var/folders/4v/g1g_y5pn119bjq2xlvdf8mrh0000gn/T/AppTranslocation/2BEBA32C-F1F1-40FE-B605-135C8DFC9CFF/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@charset \"utf-8\"\": expected \"{\", was \";\"\A         on line 4 of /Users/imac/Desktop/jsStudyBlog/assets/css/main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: @charset \"utf-8\";\A 5: \A 6: \A 7: // Import partials from `sass_dir` (defaults to `assets/_sass`)\A 8: @import\A 9:   \"normalize\","; }
