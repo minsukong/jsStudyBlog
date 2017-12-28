@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 500px;
+    margin: 50px auto;
+    font-size: 12px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    line-height: 1.2;
+}
+ul, li {
+    list-style: none;
+}
+h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+.a11y {
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+.main-tab {
+    width: 355px;
+}
+/* tab-style */
+[class*="tabList"] .tabItem {
+    float: left;
+    width: 50%;
+}
+[class*="tabList"]:before, 
+[class*="tabList"]:after {
+    display: table;
+    content: "";
+}
+[class*="tabList"]:after {
+    clear: both;
+}
+[class*="tabList"] .tabItem a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-left: -1px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    background: #f6f6f6;
+    padding: 13px 0;
+    border: 1px solid #e9e9e9;
+    color: #8d8d8d;
+}
+
+[class*="tabList"] .tabItem a:after {
+    content: "";
+    left: -65%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    background: red;
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.6)));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    -webkit-transition: all 0.55s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.55s cubic-bezier(0.19, 1, 0.22, 1);
+}
+[class*="tabList"] .tabItem a:hover:after {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+[class*="tabList"] .tabItem.is-selected a {
+    background: #fff;
+    color: #568113;
+}
+[class*="tabList"] .tabItem.is-selected a:hover:after {
+    -webkit-animation: -1s;
+    animation: -1s;
+}
+.tabList-v1 .tabItem {
+    width: auto;
+}
+.tabList-v1 .tabItem a {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.tabPanel {
+    padding: 20px 5px 14px 0;
+}
+
+.tabPanel .panel {
+    display: none;
+}
+
+.tabPanel .panel.is-selected {
+    display: block;
+}
+
+.tabPanel .panel li {
+    margin-bottom: 14px;
+}
+
+.tabPanel .panel li a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inherit;
+    font-size: 13px;
+}
+.tabPanel .panel li a:hover {
+    color: #3bafda;
+}
+
+.tabPanel .panel .panel-item {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.tabPanel .panel .panel-item a {
+    float: left;
+    width: 240px;
+    text-align: left;
+}
+
+.tabPanel .panel .panel-item .date {
+    display: inline-block;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
