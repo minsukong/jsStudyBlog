@@ -84,7 +84,7 @@ var scope = {
         return $.each($this, function (idx, el) {
             var $selector = $this.eq(idx);
             if (!$.data(this, 'plugin_' + pluginName)) {
-                $.data(this, 'plugin_' + pluginName, new TabPlugin($selector, options));
+                console.log($.data(this, 'plugin_' + pluginName, new TabPlugin($selector, options)));
             }
             return $selector;
         })
