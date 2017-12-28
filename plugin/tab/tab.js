@@ -1,3 +1,5 @@
+'use strict';
+
 var scope = {
     w : window,
     jQ : jQuery
