@@ -9,7 +9,7 @@ tags: 'history'
 author: minSuKong
 ---
 
-# 기본적으로 읽어 볼 commonJS & AMD
+# 기본적으로 읽어 볼 commonJS & AMD !!
 
 <a href="http://d2.naver.com/helloworld/12864" target="_blank">commonJS & AMD</a>
 <br />
