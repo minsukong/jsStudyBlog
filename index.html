@@ -3,12 +3,12 @@ bg: "js_main.jpg"
 layout: default
 crawlertitle: "jsStudyGroup Blog"
 title: "jsStudyGroup"
-summary: "home"
+summary: "frontEndStudy"
 ---
 
 {% for post in site.posts limit: 5 %}
   <article class="index-page">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
+    <div class="index-page-tit"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    <div class="page-tit">{{ post.excerpt }}</div>
   </article>
 {% endfor %}

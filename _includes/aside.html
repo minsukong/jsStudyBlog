@@ -8,22 +8,15 @@
 
     <div class="cover-text">
       <div class="heading">
-
-        {% if page.tags %}
-          {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
-          {% endfor %}
-        {% else %}
+        <h1 class="page-title">
           {{ page.title }}
-        {% endif %}
-
+        </h1>
+        <h2 class="sub-title">
+          {% if page.summary %}
+            {{ page.summary }}
+          {% endif %}
+        </h2>
       </div>
-
-      <p>
-        {% if page.summary %}
-          {{ page.summary }}
-        {% endif %}
-      </p>
 
     </div>
 
