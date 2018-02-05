@@ -257,6 +257,34 @@ article {
   }
 }
 
+.post-content {
+  h4 {
+    padding: 18px 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  h5 {
+    padding: 0 0 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  > ul {
+    margin: 0 0 0 30px;
+    padding: 0;
+
+    > li {
+      padding-bottom: 8px;
+
+      > ul, ol {
+        padding: 8px 0 8px 20px;
+
+        > li {
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}
 .post-meta {
   text-align: right;
   text-transform: uppercase;
