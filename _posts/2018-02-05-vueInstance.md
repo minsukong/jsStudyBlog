@@ -10,7 +10,7 @@ tags: 'Vue.js'
 author: codeMonkey
 ---
 
-### Vue.js Instance ###
+### Vue.js - Instance ###
 **Vue 포스트는 node, npm, git, vue-cli, webpack을 알고 있으며, 설치 했다는 가정하에 설명 합니다.**
 
 ---
@@ -34,7 +34,7 @@ author: codeMonkey
 	```
 
 - Vue 인스턴스 라이프 사이클 
-	![vue 인스턴스 라이프 사이클](/jsStudyBlog/assets/images/Vue-instance-lifecycle-Page-1.jpg)
+	![Vue.js Instance Life cycle](/jsStudyBlog/assets/images/Vue-instance-lifecycle-Page-1.jpg)
 
 #### Vue 라이프 사이클은 크게 4 가지로 나눌 수 있다. ####
 
