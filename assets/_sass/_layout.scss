@@ -311,16 +311,17 @@ article {
       background-color: rgb(180, 187, 184);
     }
   }
+  img {
+    border: 1px solid #eee;
+  }
+  
   > ul {
-    margin: 0 0 0 70px;
+    margin: 0 0 26px 70px;
     padding: 0;
 
     > li {
       padding-bottom: 8px;
 
-      > img {
-        border: 1px solid #eee;
-      }
       > strong {
         background-color: #eee;
       }
