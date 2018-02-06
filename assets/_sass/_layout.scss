@@ -259,24 +259,54 @@ article {
 
 .post-content {
   h4 {
-    padding: 18px 0;
+    position: relative;
+    margin: 18px 0 24px;
+    padding-left: 18px;
     font-size: 28px;
     font-weight: bold;
+
+    &::before {
+      content: "";
+      width: 4px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgb(83, 156, 120);
+    }
   }
   h5 {
-    padding: 0 0 15px 0;
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 34px;
     font-size: 24px;
     font-weight: bold;
+
+    &::before {
+      content: "";
+      width: 4px;
+      position: absolute;
+      left: 18px;
+      top: 0;
+      bottom: 0;
+      background-color: rgb(180, 187, 184);
+    }
   }
   > ul {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 70px;
     padding: 0;
 
     > li {
       padding-bottom: 8px;
 
+      > img {
+        border: 1px solid #eee;
+      }
+      > strong {
+        background-color: #eee;
+      }
       > ul, ol {
-        padding: 8px 0 8px 20px;
+        padding: 12px 0 8px 20px;
 
         > li {
           padding: 5px 0;
