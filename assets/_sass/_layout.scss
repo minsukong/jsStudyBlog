@@ -258,6 +258,25 @@ article {
 }
 
 .post-content {
+  h3 {
+    position: relative;
+    margin: 18px 0 46px;
+    padding-left: 18px;
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &::before {
+      content: "";
+      width: 4px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgb(221, 52, 165);
+    }
+  }
+
   h4 {
     position: relative;
     margin: 18px 0 24px;
