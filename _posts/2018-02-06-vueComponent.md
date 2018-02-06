@@ -124,7 +124,6 @@ author: codeMonkey
 			<!-- printText -> 상위 컴포넌트 메소드명 -->
 		</div>
 
-		<script src="vue.js"></script>
 		<script>
 			Vue.component('child-component', {
 				template : '<button v-on:click="showLog">show</button>',
@@ -155,3 +154,38 @@ author: codeMonkey
 	- 이를 해결할 수 있는 방법이 "이벤트 버스"이다.
 
 ##### 관계 없는 컴포넌트 간 통신 - "이벤트 버스" #####
+- 이벤트 버스를 위해 새로운 인스턴스를 추가 한다.
+- 이벤트를 보내는 컴포넌트에는 .$emit을 구현
+- 이벤트를 받는 컴포넌트에서는 .$on을 구현
+
+``` html
+<div id="app">
+	<child-component></child-component>
+</div>
+
+<script>
+	var eventBus = new Vue();
+	Vue.component('child-component', {
+		template : '<div>하위 컴포넌트 영역입니다. <button v-on:click="showLog">show</button></div>',
+		methods : {
+			showLog : function(){
+				eventBus.$emit('triggerEventBus', 100);
+			}
+		}
+	})
+
+	new Vue({
+		el: '#app',
+		data : {
+			msg : 'hi! Vue.js'
+		},
+		created : function(){
+			eventBus.$on('triggerEventBus', function(value){
+				console.log('이벤트를 전달받음. 전달받은 값 : ', value);
+			})
+		}
+	})
+</script>
+```
+- 이벤트 버스를 활용하면 props를 쓰지 않고 원하는 컴포넌트 간에 직접적으로 데이터를 전달할 수 있어 편리하지만, 컴포넌트가 많아지면 어디서 어디로 데이터를 보냈는지 관리가 되지는 점이 발생.
+- 이 문제를 해결하려면 뷰엑스(Vuex)라는 상태 관리 도구로 관리한다.
