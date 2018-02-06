@@ -81,7 +81,7 @@ author: codeMonkey
 - 이는 장/단점이 있을 수 있지만, 애플리케이션이 모두 동일한 데이터 흐름을 가지게 되고, 협업시에 장점이 된다.
 - 상위 컴포넌트에서 하위 컴포넌트로 데이터를 전달이 가능하다. (props)
 - 하위 컴포넌트에서 상위 컴포넌트로는 기본적으로 이벤트만 전달 가능.
-	![Vue.js props](../assets/images/props.png)
+	![Vue.js props](/jsStudyBlog/assets/images/props.png)
 
 - **props:[]**
 	- v-bind:propsData="msg" <-- 이렇게 부모의 데이터를 가져와 bind 시켜주면 자식 컴포넌트의 props로 msg를 가져올 수 있다.
