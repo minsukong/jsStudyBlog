@@ -245,6 +245,10 @@ article {
     clear: both;
   }
 
+  p {
+    margin: 0;
+  }
+
   h1 { margin-top: 0; }
 
   img {
@@ -314,7 +318,7 @@ article {
   img {
     border: 1px solid #eee;
   }
-  
+
   > ul {
     margin: 0 0 26px 70px;
     padding: 0;
