@@ -11,7 +11,8 @@ author: codeMonkey
 ---
 
 ### Vue.js - Instance ###
-**Vue 포스트는 node, npm, git, vue-cli, webpack을 알고 있으며, 설치 했다는 가정하에 설명 합니다.**
+
+**Vue 포스트는 node, npm, git, vue-cli, webpack을 알고 있으며, 설치 했다는 가정하에 설명 합니다. 참고 서적은 [Do it! Vue.js 입문](http://www.yes24.com/24/Goods/58206961?Acode=101&) 입니다.**
 
 ---
 
