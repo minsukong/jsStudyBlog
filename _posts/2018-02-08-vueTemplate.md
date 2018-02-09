@@ -43,7 +43,7 @@ author: codeMonkey
 - 아래는 뷰 인스턴스의 데이터를 html태그에 연결하는 가장 기본적인 텍스트 삽입 방식.
 	``` html
 	<div id="app">
-		{{ msg }}
+		{ msg }
 	</div>
 
 	<script>
@@ -60,7 +60,7 @@ author: codeMonkey
 
 	```
 	<div id="app" v-once>
-		{{ msg }}
+		{ msg }
 	</div>
 	</script>
 	```
