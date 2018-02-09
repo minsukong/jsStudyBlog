@@ -57,7 +57,8 @@ author: codeMonkey
 	```
 - data 속성의 msg가 값이 바뀌면 뷰 반응성에 의해 화면이 자동 갱신.
 - **v-once** 데이터가 변경되도 값을 바꾸고 싶지 않다면 아래와 같이 하면 된다.
-	``` html
+
+	```
 	<div id="app" v-once>
 		{{ msg }}
 	</div>
@@ -67,6 +68,7 @@ author: codeMonkey
 - **v-bind**
 	- v-bind는 아이디,클래스,스타일 등의 html 속성 값에 뷰 데이터 값을 연결할 때 사용하는 데이터 연결 방식.
 	- v-bind 속성으로 지정할 html 속성이나 props속성 앞에 접두사로 붙여 준다.
+
 	``` html
 	<div id="app">
       <p v-bind:id="isId">id 바인딩</p>
