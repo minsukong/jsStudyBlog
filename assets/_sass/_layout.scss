@@ -261,6 +261,9 @@ article {
   }
 }
 
+.post {
+  padding-right: 4%;
+}
 .post-content {
   h3 {
     position: relative;
@@ -317,26 +320,6 @@ article {
   }
   img {
     border: 1px solid #eee;
-  }
-
-  > ul {
-    margin: 0 0 26px 70px;
-    padding: 0;
-
-    > li {
-      padding-bottom: 8px;
-
-      > strong {
-        background-color: #eee;
-      }
-      > ul, ol {
-        padding: 12px 0 8px 20px;
-
-        > li {
-          padding: 5px 0;
-        }
-      }
-    }
   }
 }
 .post-meta {

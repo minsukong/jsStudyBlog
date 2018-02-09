@@ -2,6 +2,21 @@
 * Media Queries
 * ========================================================================== */
 
+@media screen and (min-width: $sm-break-point) {
+  .post-content {
+    h5 {
+      padding-left: 18px;
+
+      &::before {
+        left: 0;
+      }
+    }
+
+    > ul {
+      margin-left: 0;
+    }
+  }
+}
 @media screen and (min-width: $md-break-point) {
   body { font-size: 17px; }
   h1 { font-size: 2em; }
@@ -85,6 +100,28 @@
       width: 33%;
       min-height: 200px;
       border: 1px solid #ddd;
+    }
+  }
+
+  .post-content {
+    > ul {
+      margin: 0 0 26px 70px;
+      padding: 0;
+  
+      > li {
+        padding-bottom: 8px;
+  
+        > strong {
+          background-color: #eee;
+        }
+        > ul, ol {
+          padding: 12px 0 8px 20px;
+  
+          > li {
+            padding: 5px 0;
+          }
+        }
+      }
     }
   }
 }
