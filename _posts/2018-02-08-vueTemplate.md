@@ -40,7 +40,7 @@ author: codeMonkey
 ##### Template - Data Binding #####
 
 - HTML 화면 요소를 뷰 인스턴스의 데이터와 연결하는 것을 의미.
-- **{{ }}**는 뷰 인스턴스의 데이터를 html태그에 연결하는 가장 기본적인 텍스트 삽입 방식.
+- 아래는 뷰 인스턴스의 데이터를 html태그에 연결하는 가장 기본적인 텍스트 삽입 방식.
 	``` html
 	<div id="app">
 		{{ msg }}
@@ -91,50 +91,8 @@ author: codeMonkey
 ##### Template - 자바스크립트 표현식 #####
 
 - 뷰 템플릿에서도 자바스크립트 표현식 가능
-	``` html
-	<div id="app">
-      <p>{{ msg }}</p>
-      <p>{{ msg + "!!!" }}</p>
-      <p>{{ msg.split('').reverse().join('') }}</p>
-    </div>
-
-    <script>
-      new Vue({
-        el: '#app',
-        data: {
-          msg: 'hi!'
-        }
-      });
-    </script>
-	```
 - 자바스크립트의 선언문과 분기 구문을 사용할 수 없음.
 - 복잡한 연산은 인스턴스 안에서 처리, 화면에는 간단한 연산 결과만 표시
-	```html
-	<div id="app">
-      <!-- 1. -->
-      {{ var a = 10; }} <!-- X -->
-      {{ if (true) {return 100} }} <!-- X -->
-      {{ true ? 100 : 0 }} <!-- 삼항 연산자 O -->
-
-      <!-- 2. -->
-      {{ message.split('').reverse().join('') }} <!-- X, 복잡한 연산은 인스턴스 안에서 수행 -->
-      {{ reversedMessage }} <!-- O, 스크립트에서 computed 속성으로 계산 후 최종 값만 표현 -->
-    </div>
-
-    <script>
-      new Vue({
-        el: '#app',
-        data: {
-          message: 'Hello Vue.js!'
-        },
-        computed: { // cahing
-          reversedMessage: function() {
-            return this.message.split('').reverse().join('');
-          }
-        }
-      });
-    </script>
-	```
 
 ##### Template - Directive #####
 
