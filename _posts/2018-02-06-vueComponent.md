@@ -22,7 +22,7 @@ author: codeMonkey
 ##### 1. 컴포넌트 global / local 유효범위 #####
 
 - Vue 컴포넌트는 전역(global) 컴포넌트와 지역(local) 컴포넌트가 있다.
-	``` javasctip
+	``` html
 	<script>
 		Vue.component('전역 컴포넌트 이름', {
 			template : '<div>전역 컴포넌트</div>'
