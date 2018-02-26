@@ -4,7 +4,7 @@ layout: post
 title:  "Vue.js Single Component"
 crawlertitle: "vue"
 summary: "Vue.js Single Component post"
-date:   2018-02-08 11:00 +0900
+date:   2018-02-20 11:00 +0900
 categories: posts
 tags: 'Vue.js'
 author: codeMonkey
