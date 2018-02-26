@@ -2,9 +2,9 @@
 bg: "vue.jpg"
 layout: post
 title:  "front end 용어/기술"
-crawlertitle: "vue"
+crawlertitle: "frontEnd Term & Skill"
 summary: "frontEnd Term & Skill"
-date:   2018-02-21 14:00 +0900
+date:   2018-02-26 14:00 +0900
 categories: posts
 tags: 'frontEnd'
 author: codeMonkey
@@ -12,7 +12,7 @@ author: codeMonkey
 
 ### frontEnd - frontEnd Term & Skill #01 ###
 
-#### 알고 넘어가자 frontEnd ####
+#### front end 용어/기술 01 ####
 **앞단에 대해 알고 넘어가야 하는 부분을 천천히 알아 봅시다.**
 
 ##### html #####
