@@ -2,7 +2,7 @@
 bg: "vue.jpg"
 layout: post
 title:  "Vue.js Instance"
-crawlertitle: "vue"
+crawlertitle: "vue.js Instance"
 summary: "Vue.js Instance Life cycle"
 date:   2018-02-05 14:00 +0900
 categories: posts
