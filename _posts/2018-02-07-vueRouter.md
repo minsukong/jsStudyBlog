@@ -2,7 +2,7 @@
 bg: "vue.jpg"
 layout: post
 title:  "Vue.js Router"
-crawlertitle: "vue"
+crawlertitle: "vue.js Router"
 summary: "Vue.js Router post"
 date:   2018-02-07 12:00 +0900
 categories: posts
