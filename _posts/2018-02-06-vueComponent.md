@@ -2,7 +2,7 @@
 bg: "vue.jpg"
 layout: post
 title:  "Vue.js Component"
-crawlertitle: "vue"
+crawlertitle: "vue.js Component"
 summary: "Vue.js Component post"
 date:   2018-02-06 14:00 +0900
 categories: posts
