@@ -152,6 +152,7 @@ blockquote {
   padding: 1em 1em 1em 2em;
   position: relative;
   margin-left: 0;
+  background-color: #e9f5ff;
   p {
     margin-top: 0;
     margin-bottom: 1em;
@@ -160,6 +161,14 @@ blockquote {
     content: '"';
     position: absolute;
     left: .3em;
+    top:0;
+    font-size: 2em;
+    line-height: 2em;
+  }
+  &:before {
+    content: '"';
+    position: absolute;
+    right: .3em;
     top:0;
     font-size: 2em;
     line-height: 2em;
