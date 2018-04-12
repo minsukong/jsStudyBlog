@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://jsstudygroup.github.io/jsStudyBlog/sitemap.xml
