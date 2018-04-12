@@ -165,7 +165,7 @@ blockquote {
     font-size: 2em;
     line-height: 2em;
   }
-  &:before {
+  &:after {
     content: '"';
     position: absolute;
     right: .3em;
