@@ -22,7 +22,7 @@ author: codeMonkey
 
 study list
 
-- http
+- http, restApi
 - node, server, router
 - db
 - vue.js, nuxt
@@ -30,8 +30,9 @@ study list
 
 ***각 리스트의 기술 정보는 아래와 같다.***
 
-##### http
+##### http, restApi
 - [http 정리](/jsStudyBlog/posts/Http/)
+- [restApi](/jsStudyBlog/posts/RestApi/)
 
 ##### nodeJS, server, router
 - [nodeJS 정리](/jsStudyBlog/posts/NodeJS/)
