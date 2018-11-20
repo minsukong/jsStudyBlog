@@ -3,7 +3,7 @@ layout: post
 title:  "Full Stack Plan"
 crawlertitle: "풀스택 개발자 공부"
 summary: "FullStackPlan"
-date:   2018-11-20 15:00 +0900
+date:   2018-11-20 12:00 +0900
 categories: posts
 tags: 'FullStack'
 author: codeMonkey
