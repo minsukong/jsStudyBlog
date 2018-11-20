@@ -2,11 +2,13 @@
 * Links
 * ========================================================================== */
 a {
-  color: rgb(58, 161, 245);
+  color: rgb(53, 146, 221);
   text-decoration: none;
   &:hover,
   &:focus,
-  &:active { text-decoration: none; }
+  &:active { 
+    color: #b9b9b9;
+  }
 }
 
 
