@@ -32,14 +32,19 @@ study list
 
 ##### http
 - [http 정리](/jsStudyBlog/posts/Http/)
+
 ##### nodeJS, server, router
 - [nodeJS 정리](/jsStudyBlog/posts/NodeJS/)
 - [server 정리](/jsStudyBlog/posts/Server/)
 - [router 정리](/jsStudyBlog/posts/Router/)
+
 ##### db
 - [db 정리](/jsStudyBlog/posts/DB/)
+
 ##### nuxt
 - [nuxt 정리](/jsStudyBlog/posts/Nuxt/)
+
 ##### es6
 - [es6 정리](/jsStudyBlog/posts/ES6/)
+
 
