@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Keep learning FullStack"
+title:  "Full Stack Plan"
 crawlertitle: "풀스택 개발자 공부"
-summary: "DailyLife"
+summary: "FullStackPlan"
 date:   2018-11-20 15:00 +0900
 categories: posts
-tags: 'DailyLife'
+tags: 'FullStack'
 author: codeMonkey
 ---
 
-### Keep learning FullStack
+### Full Stack Plan
 
 
 ***나 자신을 변화 시켜라***
