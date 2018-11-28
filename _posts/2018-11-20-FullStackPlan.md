@@ -23,7 +23,7 @@ author: codeMonkey
 study list
 
 - http, restApi
-- node, server, router
+- node, server
 - db
 - vue.js, nuxt
 - es6
@@ -34,11 +34,10 @@ study list
 - [http 정리](/jsStudyBlog/posts/Http/)
 - [restApi](/jsStudyBlog/posts/RestApi/)
 
-##### nodeJS, server, router
+##### nodeJS, server
 - [nodeJS 정리](/jsStudyBlog/posts/NodeJS/)
 - [server 정리](/jsStudyBlog/posts/Server/)
 - [express 정리](/jsStudyBlog/posts/Express/)
-- [router 정리](/jsStudyBlog/posts/Router/)
 
 ##### db
 - [db 정리](/jsStudyBlog/posts/DB/)
