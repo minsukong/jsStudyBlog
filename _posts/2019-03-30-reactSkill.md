@@ -117,6 +117,7 @@ author: codeMonkey
     - component에 직접적으로 이벤트를 설정 할 수 없다.(DOM 요소에만 가능)
 - 이벤트 종류[react이벤트종류](http://facebook.github.io/react/docs/event.html) 
 - SyntheticEvent는 웹 브라우저의 네이티브 이벤트를 감싸는 객체(html 이벤트를 다룰 때와 똑같이 사용.)
+
 #### 5장 ref: DOM에 이름 달기
 - 특징
     - 보통은 ref 없이 state의 값의 업데이트를 이용한다.
@@ -132,8 +133,25 @@ author: codeMonkey
     - 컴포넌트에 ref을 달면 MyComponent 내부 메서드 및 멤버 변수에 접근 가능
     - myComponent.handleClick 이런식으로 메서드 접근이 가능하다.
     - ref를 컴포넌트간 데이터를 주고받는 방식으로 사용 X
-#### 6장
-#### 7장
+
+#### 6장 컴포넌트 반복
+- map을 사용 한다. 'arr.map(callback, [this.Arg])'
+    - callback : 새로운 배열의 요소를 생성 (currntValue, index, array)
+    - thisArg(선택 항목) : callback 함수 내부에서 사용할 this 레퍼런스
+    - key 값을 넣어야 한다.
+    ```jsx
+        const cars = ['car01', 'car02', 'car03']
+        const carsList = cars.map(
+            (car, index) => (
+                <li key={index}>{name}</li>
+            )
+        )
+    ```
+- map.filter를 사용하여 원하는 새 배열 값을 얻을 수 있다.(그 외 concat, slice 등등)
+
+#### 7장 컴포넌트 라이프사이클 메서드
+![react-lifeCycle](/jsStudyBlog/assets/images/post/react-life.png)
+
 
 
 
