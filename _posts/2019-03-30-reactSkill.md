@@ -12,7 +12,7 @@ author: codeMonkey
 
 ### react - react를 다루는 기술 ###
 
-![react-sill](/jsStudyBlog/assets/images/post/react-skill.png)
+![react-skill](/jsStudyBlog/assets/images/post/react-skill.jpg)
 
 ***리액트를 다루는 기술 정리***
 
@@ -151,6 +151,11 @@ author: codeMonkey
 
 #### 7장 컴포넌트 라이프사이클 메서드
 ![react-lifeCycle](/jsStudyBlog/assets/images/post/react-life.png)
+
+- 라이프사이클 메서드는 총 10가지 
+- Will 접두사가 붙은 메서드는 어떤 작업을 작동하기 전
+- Did 접두사가 붙은 메서드는 어떤 작업을 작동한 후에 실행되는 메서드
+- Mount, Update, unMount
 
 
 
