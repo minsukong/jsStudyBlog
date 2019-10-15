@@ -10,7 +10,7 @@ tags: 'react.js'
 author: codeMonkey
 ---
 
-### react - react를 다루는 기술 ###
+### react - react를 다루는 기술!! ###
 
 ![react-skill](/jsStudyBlog/assets/images/post/react-skill.jpg)
 
